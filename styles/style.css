@@ -1,4 +1,4 @@
-body, main {
+html, body, main {
     font-family: 'Poppins', sans-serif;
     border: 0;
     padding: 0;
@@ -82,10 +82,10 @@ header {
     margin-top: 80px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .bloco {
-    width: 350px;
+    min-width: 300px; /*Almentar a largura*/
     height: 100px;
     background-color:#ffb042;
     margin: 10px;
@@ -94,4 +94,43 @@ header {
     color:#212529;
     font-weight: 800;
     line-height: 100px;
+    cursor: pointer;
+}
+.bloco:hover {
+    background-color: #212529;
+    color: white;
+    border: 1px solid rgba(247, 132, 0, 0.871);
+    transition: 0.3s;
+}
+.sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+.img-sobre img {
+    width: 400px;
+    height: auto;
+}
+.artigo-sobre {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    max-width: 600px;
+    font-size: 13px;
+    margin-left: 80px;
+}
+.artigo-sobre h1 {
+    font-weight: 700;
+    font-size: 23px;
+}
+.artigo-sobre p {
+    font-weight: 100;
+}
+.artigo-sobre h1 {
+    line-height: 2px;
+}
+.artigo-sobre input {
+    margin-top: 25px;
 }

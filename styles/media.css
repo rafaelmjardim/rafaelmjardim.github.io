@@ -2,9 +2,6 @@
     .nav {
         display: none;
     }
-    .apresentacao {
-        
-    }
     .apresentacao h2 {
         font-size: 20px;
     }
@@ -13,8 +10,6 @@
     }
     .apresentacao p {
         max-width: 450px;
-    }
-    .sobre {
     }
     .sobre p, h1{
         margin-top: 0;

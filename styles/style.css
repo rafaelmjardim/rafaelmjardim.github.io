@@ -1,10 +1,11 @@
 html, body, main {
     font-family: 'Poppins', sans-serif;
-    border: 0;
+    margin: 0;
     padding: 0;
     background-color: #212529;
     color: white;
     max-width: 100%;
+    scroll-behavior: smooth;
 }
 .logo.r-laranja, img{
     width: auto;
@@ -83,6 +84,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .bloco {
     min-width: 300px; /*Almentar a largura*/
@@ -102,16 +104,29 @@ header {
     border: 1px solid rgba(247, 132, 0, 0.871);
     transition: 0.3s;
 }
+.bloco.bloco-config {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.bloco.bloco-config img {
+    width: 50px;
+    height: auto;
+}
 .sobre {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top:100px;
+    flex-wrap: wrap;
 }
 .img-sobre img {
-    width: 400px;
+    width: 350px;
     height: auto;
+    margin: 20px 50px;
 }
 .artigo-sobre {
     display: flex;
@@ -119,7 +134,8 @@ header {
     text-align: justify;
     max-width: 600px;
     font-size: 13px;
-    margin-left: 80px;
+    margin: 80px;
+
 }
 .artigo-sobre h1 {
     font-weight: 700;

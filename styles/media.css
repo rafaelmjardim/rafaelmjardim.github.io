@@ -1,0 +1,19 @@
+@media screen and (max-width: 760px) {
+    .apresentacao {
+        
+    }
+    .apresentacao h2 {
+        font-size: 20px;
+    }
+    .apresentacao h1 {
+        font-size: 23px;
+    }
+    .apresentacao p {
+        max-width: 450px;
+    }
+    .img-sobre img {
+        width: 200px;
+        height: auto;
+    }
+    
+}

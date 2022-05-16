@@ -1,15 +1,44 @@
 @media screen and (max-width: 760px) {
+    .nav-mobile {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .nav-mobile ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .nav-mobile li {
+        padding: 10px;
+    }
+    .nav-mobile li:hover {
+        color: rgba(248, 140, 0, 0.943);
+        transition: 0.3s;
+    }
+    .nav-mobile a {
+        color: white;
+        text-decoration: none;
+    }
+    .nav-mobile span {
+        color: rgba(248, 140, 0, 0.943);
+    }
     .nav {
         display: none;
     }
     .apresentacao h2 {
-        font-size: 20px;
+        font-size: 17px;
     }
     .apresentacao h1 {
-        font-size: 23px;
+        font-size: 21px;
     }
     .apresentacao p {
-        max-width: 450px;
+        font-size: 13px;
+        max-width: 300px;
     }
     .sobre p, h1{
         margin-top: 0;
@@ -21,4 +50,10 @@
         margin-bottom: 0;
     }
     
+}
+@media screen and (min-width: 520px) {
+    .nav-mobile {
+        display: none;
+        
+    }
 }

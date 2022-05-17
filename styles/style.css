@@ -256,6 +256,10 @@ footer {
 .contatos li {
     list-style: none;
 }
+.contatos a {
+    text-decoration: none;
+    color: rgba(248, 140, 0, 0.943);
+}
 .copyright {
     margin-top:40px ;
     display: flex;
@@ -292,4 +296,15 @@ footer {
 }
 .nav-footer span {
     color: rgba(248, 140, 0, 0.943);
+}
+.rede-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 5px;
+}
+.icone-social img {
+    width: 30px;
+    height: auto;
+    margin: 5px;
 }

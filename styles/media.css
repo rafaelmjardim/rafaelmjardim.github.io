@@ -49,12 +49,23 @@
         height: auto;
         margin-bottom: 0;
     }
+    .info-footer {
+        height: auto;
+    }
+    .copyright {
+        font-size: 11px;
+    }
+    .nav-footer ul {
+        flex-direction: column;
+    }
+    .contatos {
+        text-align: center;
+    }
     
 }
 @media screen and (min-width: 759px){
     .nav-mobile {
         display: none;
         
-    }
-    
+    } 
 }

@@ -79,12 +79,14 @@ header {
     max-width: 600px;
     font-weight: 200;
 }
+.apresentacao span {
+    color: rgba(248, 140, 0, 0.943);
+}
 .foto-perfil img {
     width: 250px;
     height: 250px;
     border: 2px solid rgba(247, 132, 0, 0.871);
     border-radius: 250px;
-    margin-top: 40px;
 }
 .blocos {
     margin-top: 80px;
@@ -92,6 +94,10 @@ header {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+.blocos a {
+    text-decoration: none;
+    color: #212529;
 }
 .bloco {
     min-width: 300px; /*Almentar a largura*/
@@ -122,12 +128,12 @@ header {
     width: 50px;
     height: auto;
 }
-.sobre {
+.content-sobre {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-top:100px;
+    margin-top: 100px;
     flex-wrap: wrap;
 }
 .img-sobre img {
@@ -141,19 +147,47 @@ header {
     text-align: justify;
     max-width: 600px;
     font-size: 13px;
-    margin: 30px;
-
+    margin: 120px 30px;
 }
 .artigo-sobre h1 {
-    font-weight: 700;
-    font-size: 23px;
+    font-weight: 600;
+    font-size: 38px;
 }
 .artigo-sobre p {
     font-weight: 100;
+    font-size: 16px;
 }
 .artigo-sobre h1 {
-    line-height: 2px;
+    line-height: 42px;
+    max-width: 420px;
+    text-align: start;
 }
 .artigo-sobre input {
     margin-top: 25px;
+}
+.galeria-icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 40px;
+}
+.content-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px 0px;
+}
+.icone {
+    background-color: #2f343a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 8px;
+    height: 80px;
+}
+.git img {
+    margin-left: 5px;
 }

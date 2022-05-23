@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/media.css">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/scrollbar.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Rafael Jardim</title>
 </head>
 <body>
@@ -32,7 +33,7 @@
             </ul>
             <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55051998747124" target="_blank"><input type="button" value="Contratar"></a>
         </nav>
-        <header>
+        <header  data-aos="fade-right">
             <div class="apresentacao">
                 <h2>Olá! Eu sou o <span>Rafael Jardim!</span></h2>
                 <h1>Desenvolvedor Front-End e estudante da área.</h1>
@@ -59,7 +60,7 @@
                 </div>
             </div>
         </header>
-        <div id="sobre" class="content-sobre">
+        <div data-aos="fade-up" id="sobre" class="content-sobre">
             <div class="img-sobre">
                 <img src="./img/pngwing.com.png" alt="Imagem tecnologia exemplo">
             </div>
@@ -72,16 +73,16 @@
                     para trabalhar em grupo. Estou concluindo curso técnico e
                     desejo iniciar uma carreira sólida nesta área, pois o próximo
                     objetivo é a graduação.</p>
-                <a href="#"><input type="button" value="Contratar"></a>
+                <a data-aos="fade-down" href="#" ><input type="button" value="Contratar"></a>
             </article>
         </div>
             <div id="skills" class="content-skills">
-                <article class="artigo artigo-sobre">
+                <article data-aos="fade-down-right"class="artigo artigo-sobre">
                     <h1>Habilidades e tecnologias que uso:</h1>
                     <p>Essas são as ferramentas que utilizo diariamente nos meu projetos...</p>
-                    <a href="#"><input type="button" value="Contratar"></a>
+                    <a data-aos="fade-down" href="#"><input type="button" value="Contratar"></a>
                 </article>
-                <div class="galeria-icones">
+                <div data-aos="fade-down-left" class="galeria-icones">
                     <div class="icone">
                         <img src="./img/icons/icons8-html-5-240.png" alt="Icone html">
                     </div>
@@ -103,8 +104,8 @@
                 </div>
             </div>
             <div id="portifolio" class="content-portifolio">
-                <h1>Portifolio de sites!</h1>
-                <div class="portifolio">
+                <h1 data-aos="fade-up">Portifolio de sites!</h1>
+                <div data-aos="zoom-in-up" data-aos-duration="1500" class="portifolio">
                     <div class="portifolio-img">
                         <a href="https://coffeelayout.vercel.app/" target="_blank"><img src="./img/pages/cafe.png" alt="Página Café"></a>
                     </div>
@@ -115,7 +116,7 @@
                         <a href="https://mr3.vercel.app/"><img src="./img/pages/mr3.png" alt="Página MR3"></a>
                     </div>
                 </div>
-                <a href="#"><input type="button" value="Mais >"></a>
+                <a data-aos="fade-down" href="#"><input type="button" value="Mais >"></a>
             </div>
             <footer id="footer">
                 <div class="info-footer">
@@ -150,5 +151,9 @@
             </footer>
     </main> 
     <script src="./javascript/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

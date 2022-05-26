@@ -87,7 +87,6 @@ header {
 .foto-perfil img {
     width: 250px;
     height: 250px;
-    border: 2px solid rgba(247, 132, 0, 0.871);
     border-radius: 250px;
     margin-top: 40px;
 }

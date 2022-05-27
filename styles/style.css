@@ -112,6 +112,8 @@ header {
     font-weight: 800;
     line-height: 100px;
     cursor: pointer;
+    border: 1px solid;
+
 }
 .bloco:hover {
     background-color: #212529;

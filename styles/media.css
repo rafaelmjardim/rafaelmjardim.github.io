@@ -1,20 +1,44 @@
 @media screen and (max-width: 760px) {
+    #nav-btn-open, #nav-btn-close {
+        font-size: 30px;
+        border-radius: 8px;
+        color: rgba(248, 140, 0, 0.943) ;
+        background-color: #2f343a;
+    }
+    #nav-btn-open {
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+    #nav-btn-close {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        font-size: 28px;
+    }
     .nav-mobile {
         font-size: 16px;
         font-weight: 600;
         text-align: center;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        z-index: 9;
+        width: 0;
+        height: 100%;
+        overflow-x: hidden;
+        transition: all 0.5s;
     }
     .nav-mobile ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        display: block;
         list-style: none;
         margin: 0;
-        padding: 0;
-        margin-top: 20px;
+        padding: 60px;
+        transition: 0.3s;
+        position: relative;
+        top: 90px;
     }
     .nav-mobile li {
-        padding: 10px;
+        padding: 16px;
     }
     .nav-mobile li:hover {
         color: rgba(248, 140, 0, 0.943);
@@ -23,6 +47,7 @@
     .nav-mobile a {
         color: white;
         text-decoration: none;
+        font-size: 25px;
     }
     .nav-mobile span {
         color: rgba(248, 140, 0, 0.943);
@@ -69,4 +94,7 @@
         display: none;
         
     } 
+    #nav-btn-open {
+        display: none;
+     }
 }

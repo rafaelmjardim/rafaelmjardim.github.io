@@ -23,7 +23,7 @@
         font-size: 16px;
         font-weight: 600;
         text-align: center;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgb(16, 16, 16);
         position: fixed;
         z-index: 9;
         width: 0;

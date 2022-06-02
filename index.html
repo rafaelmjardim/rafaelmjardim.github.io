@@ -26,13 +26,14 @@
     <button id="nav-btn-open" onclick="navOpen()"><i class="fa-solid fa-bars"></i></button>
     <div id="nav-mobile" class="nav-mobile">
         <button id="nav-btn-close" onclick="navClose()"><i class="fa-solid fa-xmark"></i></button>
-        <ul id="nav-list">
+        <ul>
             <a onclick="navClose()" href="#"><li><span>Home</span></li></a>
             <a onclick="navClose()" href="#sobre"><li>Sobre</li></a>
             <a onclick="navClose()" href="#skills"><li>Habilidades</li></a>
             <a onclick="navClose()" href="#portifolio"><li>Portifolio</li></a>
             <a onclick="navClose()" href="#footer"><li>Contato</li></a>
         </ul>
+         <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55051998747124" target="_blank"><input class="btn-contratar" type="button" value="Contratar"></a>
     </div>
     <nav class="nav">
             <div class="logo r-laranja">
@@ -46,8 +47,8 @@
             </ul>
             <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55051998747124" target="_blank"><input type="button" value="Contratar"></a>
         </nav>
-    <main>
-        <header  data-aos="fade-right">
+    <main onclick="navClose()">
+        <header  id="header" data-aos="fade-right">
             <div class="apresentacao">
                 <h2>Olá! Eu sou <span>Rafael Jardim!</span></h2>
                 <h1>Desenvolvedor Front-End e estudante da área.</h1>
